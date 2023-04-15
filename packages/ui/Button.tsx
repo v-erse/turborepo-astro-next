@@ -1,3 +1,3 @@
-export const Button = () => {
-  return <button>laksjhflskdhf</button>;
+export const Button = ({ onClick = () => {} }: { onClick?: () => void }) => {
+  return <button onClick={onClick}>hello</button>;
 };
